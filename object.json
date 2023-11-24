@@ -1,0 +1,203 @@
+ [
+ 
+    {
+      "question": "What is the capital of France?",
+      "options": {
+        "A": "Berlin",
+        "B": "Madrid",
+        "C": "Paris",
+        "D": "Rome"
+      },
+      "correctAnswer": "C"
+    },
+    {
+      "question": "Which planet is known as the Red Planet?",
+      "options": {
+        "A": "Earth",
+        "B": "Mars",
+        "C": "Venus",
+        "D": "Jupiter"
+      },
+      "correctAnswer": "B"
+    },
+    {
+      "question": "Who wrote 'Romeo and Juliet'?",
+      "options": {
+        "A": "Charles Dickens",
+        "B": "William Shakespeare",
+        "C": "Jane Austen",
+        "D": "Mark Twain"
+      },
+      "correctAnswer": "B"
+    },
+    {
+      "question": "In which year did World War I begin?",
+      "options": {
+        "A": "1905",
+        "B": "1914",
+        "C": "1922",
+        "D": "1939"
+      },
+      "correctAnswer": "B"
+    },
+    {
+      "question": "What is the largest mammal in the world?",
+      "options": {
+        "A": "Elephant",
+        "B": "Blue Whale",
+        "C": "Giraffe",
+        "D": "Hippopotamus"
+      },
+      "correctAnswer": "B"
+    },
+    {
+      "question": "Who developed the theory of relativity?",
+      "options": {
+        "A": "Isaac Newton",
+        "B": "Albert Einstein",
+        "C": "Galileo Galilei",
+        "D": "Stephen Hawking"
+      },
+      "correctAnswer": "B"
+    },
+    {
+      "question": "What is the capital of Japan?",
+      "options": {
+        "A": "Beijing",
+        "B": "Seoul",
+        "C": "Tokyo",
+        "D": "Bangkok"
+      },
+      "correctAnswer": "C"
+    },
+    {
+      "question": "Who painted the Mona Lisa?",
+      "options": {
+        "A": "Pablo Picasso",
+        "B": "Vincent van Gogh",
+        "C": "Leonardo da Vinci",
+        "D": "Claude Monet"
+      },
+      "correctAnswer": "C"
+    },
+    {
+      "question": "Which element has the chemical symbol 'O'?",
+      "options": {
+        "A": "Oxygen",
+        "B": "Gold",
+        "C": "Iron",
+        "D": "Sulfur"
+      },
+      "correctAnswer": "A"
+    },
+    {
+      "question": "Who wrote 'To Kill a Mockingbird'?",
+      "options": {
+        "A": "George Orwell",
+        "B": "Harper Lee",
+        "C": "J.K. Rowling",
+        "D": "Mark Twain"
+      },
+      "correctAnswer": "B"
+    },
+    {
+      "question": "What is the largest ocean on Earth?",
+      "options": {
+        "A": "Atlantic Ocean",
+        "B": "Indian Ocean",
+        "C": "Southern Ocean",
+        "D": "Pacific Ocean"
+      },
+      "correctAnswer": "D"
+    },
+    {
+      "question": "In which year did the Titanic sink?",
+      "options": {
+        "A": "1912",
+        "B": "1920",
+        "C": "1931",
+        "D": "1945"
+      },
+      "correctAnswer": "A"
+    },
+    {
+      "question": "Who is known as the 'Father of Computer Science'?",
+      "options": {
+        "A": "Bill Gates",
+        "B": "Alan Turing",
+        "C": "Steve Jobs",
+        "D": "Ada Lovelace"
+      },
+      "correctAnswer": "B"
+    },
+    {
+      "question": "Which country is famous for the Pyramids of Giza?",
+      "options": {
+        "A": "Greece",
+        "B": "Italy",
+        "C": "Egypt",
+        "D": "Turkey"
+      },
+      "correctAnswer": "C"
+    },
+    {
+      "question": "What is the capital of Brazil?",
+      "options": {
+        "A": "Buenos Aires",
+        "B": "Lima",
+        "C": "Brasília",
+        "D": "Rio de Janeiro"
+      },
+      "correctAnswer": "C"
+    },
+    {
+      "question": "Who discovered penicillin?",
+      "options": {
+        "A": "Marie Curie",
+        "B": "Alexander Fleming",
+        "C": "Louis Pasteur",
+        "D": "Jonas Salk"
+      },
+      "correctAnswer": "B"
+    },
+    {
+      "question": "What is the currency of China?",
+      "options": {
+        "A": "Yen",
+        "B": "Won",
+        "C": "Yuan",
+        "D": "Ringgit"
+      },
+      "correctAnswer": "C"
+    },
+    {
+      "question": "Who painted 'Starry Night'?",
+      "options": {
+        "A": "Pablo Picasso",
+        "B": "Vincent van Gogh",
+        "C": "Claude Monet",
+        "D": "Leonardo da Vinci"
+      },
+      "correctAnswer": "B"
+    },
+    {
+      "question": "Which gas is responsible for the greenhouse effect?",
+      "options": {
+        "A": "Oxygen",
+        "B": "Carbon Dioxide",
+        "C": "Methane",
+        "D": "Nitrous Oxide"
+      },
+      "correctAnswer": "B"
+    },
+    {
+      "question": "What is the capital of France?",
+      "options": {
+        "A": "Berlin",
+        "B": "Madrid",
+        "C": "Paris",
+        "D": "Rome"
+      },
+      "correctAnswer": "C"
+    }
+  ]
