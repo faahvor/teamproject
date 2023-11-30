@@ -3,14 +3,21 @@ let score = 1;
 let totalQuestions = 20; // Set your total number of questions
 let questions;
 let selectedOption;
-let femaleScore = 0;
-let maleScore = 0;
-let activePlayer = 0; // Add this line to declare activePlayer
 
-const player1 = document.querySelector(".player_0");
-const player2 = document.querySelector(".player_1");
-const femaleScoreDisplay = document.querySelector("#femaleScore");
-const maleScoreDisplay = document.querySelector("#maleScore");
+var users =[
+   {
+    id:1,
+    score:0,
+    fullname:"elizabeth"
+
+   },
+   {
+    id:1,
+    score:0,
+    fullname:"wisdom"
+
+   }
+]
 
 // Initial load of questions
 loadQuestions();
@@ -73,14 +80,8 @@ function loadQuestion() {
                 <button onclick="checkAnswer()">Check Answer</button>
             </div>
         `;
-    } else {
-        // Display a message when all questions are answered
-        questionContainer.innerHTML = `<p>All questions answered!</p>`;
     }
 }
-
-// ... (Remaining code remains unchanged)
-
 
 function updateScoreRange() {
     const rangeInput = document.querySelector('#slideRange');
@@ -91,14 +92,21 @@ function updateScoreRange() {
 }
 
 let celebrationTriggered = false;
-
 function checkAnswer() {
     if (selectedOption !== undefined && !celebrationTriggered) {
+        const currentQuestion = questions[currentQuestionIndex];
+
+        // Check if the selected option is correct
+        if (selectedOption === currentQuestion.correctOption) {
+            // Increment the user's correctAnswers count
+            users[currentUserIndex].correctAnswers++;
+        }
+
         // Increment the score every time the user clicks an option
         score++;
 
         // Check if the score has reached 20
-        if (score === 20) { // Use strict equality check
+        if (score === 20) {
             celebrate();
             celebrationTriggered = true;
 
@@ -121,26 +129,24 @@ function checkAnswer() {
         alert('Please select an option before checking the answer.');
     }
 }
+let currentUserIndex = 0;
 
-const switchPlayer = function () {
-    // Switch players
-    activePlayer = activePlayer === 0 ? 1 : 0;
-    player1.classList.toggle("player--active");
-    player2.classList.toggle("player--active");
-};
+// ... (rest of your code)
 
-const updateScores = function () {
-    // Update player scores
-    if (activePlayer === 0) {
-        femaleScore++;
-    } else {
-        maleScore++;
-    }
+function switchPlayer() {
+    currentUserIndex = (currentUserIndex + 1) % users.length;
+}
 
-    // Update the displayed scores
-    femaleScoreDisplay.textContent = femaleScore;
-    maleScoreDisplay.textContent = maleScore;
-};
+function updateScores() {
+    // Update the score display for each user
+    users.forEach((user, index) => {
+        const scoreElement = document.querySelector(`#score-${index + 1}`);
+        scoreElement.textContent = `${user.correctAnswers}`;
+    });
+}
+
+// ... (rest of your code)
+
 
 function celebrate() {
     const numberOfBalloons = 50; // Adjust the number of balloons as needed
